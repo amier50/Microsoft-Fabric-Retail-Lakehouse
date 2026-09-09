@@ -6,6 +6,35 @@ The pipeline ingests Olist e-commerce data, applies Bronze/Silver/Gold medallion
 
 The source of Olist e-commerce data is coming from https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
+CSV
+   ↓
+Fabric Pipeline
+   ↓
+Bronze
+   ↓
+PySpark
+   ↓
+Silver
+   ↓
+Gold
+   ↓
+Semantic Model
+   ↓
+Power BI
+
+## Design Decisions
+### Why medallion architecture?
+To separate raw ingestion, validated data,
+and analytics-ready datasets.
+
+### Why Delta tables?
+To support reliable updates, schema enforcement,
+and efficient analytical processing.
+
+### Why dimensional modelling?
+To provide a simplified structure optimized
+for BI and analytical workloads.
+
 ## Medallion architecture
 ### Bronze Layer
 - Loaded raw customer, product, order and order-item files
