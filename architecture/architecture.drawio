@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="aSfOCOSqLIWY1PyCuR0b">
+    <mxGraphModel dx="1548" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kah-7--jLsxfrlo69kK5-19" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kah-7--jLsxfrlo69kK5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Olist Dataset&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;customers.csv&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;products.csv&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;orders.csv&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;order_items.csv&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-3" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Fabric Data Pipeline:&lt;div&gt;pl_ingest_olist &lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-5" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BRONZE LAYER&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;bronze_customers&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;bronze_products&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;bronze_orders&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;bronze_order_items&amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="130" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-7" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Using PySpark Notebook to:&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Cleaning&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Data types&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Deduplication&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Validation&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Null handling&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="170" x="345" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-9" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SILVER LAYER&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;silver_customers&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;silver_products&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;silver_orders&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;silver_order_items&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="150" x="350" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-11" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Use PySpark / SQL Modelling to do:&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Joins&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Business calculations&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Dimensional modelling&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" x="570" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-13" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GOLD LAYER&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;fact_sales&lt;/li&gt;&lt;li style=&quot;&quot;&gt;dim_customer&lt;/li&gt;&lt;li style=&quot;&quot;&gt;dim_product&lt;/li&gt;&lt;li style=&quot;&quot;&gt;dim_date&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="590" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-15" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Semantic Model" vertex="1">
+          <mxGeometry height="60" width="120" x="615" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Analyze in Power BI&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;Revenue&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Orders&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Products&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Customers&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="185" x="582.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-20" edge="1" parent="1" source="kah-7--jLsxfrlo69kK5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kah-7--jLsxfrlo69kK5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kah-7--jLsxfrlo69kK5-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lakehouse Landing Zone:&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Files/landing/olist/&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="135" y="185" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
